@@ -1,4 +1,4 @@
-### Mindshare .gitignore template v 1.0.3
+### Mindshare .gitignore template v 1.0.4
 # https://raw.githubusercontent.com/mindsharestudios/gitignore/master/.gitignore
 
 ### Composer template
@@ -122,20 +122,41 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-## WP stuff
-sitemap.xml
-sitemap.xml.gz
+## WordPress and backup stuff
 wp-config.php
 wp-content/advanced-cache.php
 wp-content/backup-db/
+wp-content/backup-db/* 
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
+wp-content/cache/* 
+wp-content/managewp/* 
+wp-content/plugins/ezpz-one-click-backup/*
 wp-content/upgrade/
+wp-content/upgrade/* 
 wp-content/uploads/
+wp-content/uploads/backupbuddy/* 
+wp-content/uploads/cache/* 
+wp-content/uploads/shadowbox* 
+wp-content/uploads/wp-clone/* 
 wp-content/wp-cache-config.php
+backupbuddy_backups
+backupbuddy_temp
+backup-db
+backup-templates 
+cgi-bin/ 
+debug_log
+error_log
+gator_cache 
+minify-cache
+shadowbox-js
+sitemap.xml
+sitemap.xml.gz
+
 ## ignore the top level .htaccess file (in case you need a different one for local development)
 /.htaccess
+
 
 ## SVN Stuff
 .svn/
@@ -183,13 +204,3 @@ local.properties
 
 #sftp configuration file
 sftp-config.json
-
-## Backup stuff
-backup-db
-backupbuddy_backups
-backupbuddy_temp
-
-error_log
-minify-cache
-shadowbox-js
-
