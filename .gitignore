@@ -1,4 +1,4 @@
-### Mindshare .gitignore template v 1.0.5
+### Mindshare .gitignore template v 1.0.6
 # https://raw.githubusercontent.com/mindsharestudios/gitignore/master/.gitignore
 
 ### Composer template
@@ -261,9 +261,14 @@ sftp-config.json
 *.mpeg
 *.mpg
 *.ogg
+*.pdf
 *.ra
 *.tar
 *.tgz
 *.webm
 *.wmv
 *.zip
+*.doc
+*.docx
+*.rtf
+*.odt
