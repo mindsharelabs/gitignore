@@ -115,6 +115,10 @@ Icon
 .Spotlight-V100
 .Trashes
 
+# Misc potential directories on server
+.well-known/
+
+
 # Directories potentially created on remote AFP share
 .apdisk
 .AppleDB
